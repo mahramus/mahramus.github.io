@@ -1,6 +1,7 @@
 .portfolio-header {
-  position: relative;
-  background-image: url(images/header-bg.jpg);
+  position: static;
+  background-image: url(images/bannerback.jpg);
+  background-repeat: repeat;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -28,18 +29,36 @@
   min-height: auto;
 }
 
-.portfolio-logo {
-  background: url(images/logo.png) 50% no-repeat;
-  background-size: cover;
-  height: 150px;
-  width: 150px;
+
+/* .portfolio-logo {
+  background: url(images/option1.png) 50% no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat; 
+  border-radius: 75px 75px 75px 75px; 
+  height: 100%;
+  width: 100%;
   margin: auto auto 10px;
+} */
+
+.portfolio-logo {
+  background: url(images/headshot.png) 100% no-repeat;
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  margin: 20px auto 10px;
+}
+
+.title-style {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .is-compact .portfolio-logo {
   height: 50px;
-  width: 50px;
+  width: 241px;
   margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .portfolio-navigation-row {
@@ -161,6 +180,10 @@ img.article-image {
 .portfolio-contact form {
   max-width: 550px;
   margin: auto;
+}
+
+.custom-see-project-color {
+  color: rgb(233, 155, 0);
 }
 
 footer {
