@@ -1,2 +1,5 @@
-# mdl-portfolio
-A re-designed portfolio using Google's Material Design
+# AnthonyMahramus.com
+
+## Personal Portfolio Site
+
+### Using Google's Material Design
