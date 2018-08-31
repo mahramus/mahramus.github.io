@@ -13,12 +13,23 @@
 }
 
 .mdl-layout__title {
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
-  font-weight: 300;
+  font-weight: bold;
   padding-top: 10px;
   padding-bottom: 15px;
+  margin-bottom: 20px;
+  
 }
+
+/* Originally added to deal with text-wrapping issue. Instead just added elements to mdl-layout__title above
+
+/* .title-style {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+} */
 
 .is-compact .mdl-layout__title span {
   display: none;
@@ -51,11 +62,7 @@
   margin: 20px auto 10px;
 }
 
-.title-style {
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
+
 
 .is-compact .portfolio-logo {
   height: 50px;
